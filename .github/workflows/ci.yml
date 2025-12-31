@@ -31,6 +31,7 @@ jobs:
         run: npm ci
 
       - name: Run lint
+        working-directory: ./cocktails
         run: npm run lint --if-present
 
       - name: Build application
@@ -39,4 +40,5 @@ jobs:
         run: npm run build --if-present
 
       - name: Run tests
+        working-directory: ./cocktails
         run: npm test --if-present
