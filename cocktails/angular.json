@@ -38,10 +38,7 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [
-                "ng lint",
-                "ng lint --fix"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
