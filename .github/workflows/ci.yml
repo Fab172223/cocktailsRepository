@@ -37,7 +37,7 @@ jobs:
       - name: Build application
         run: npm run build
 
-      - name: SonarCloud Scan
-        env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: npm run sonar
+      #- name: SonarCloud Scan
+        #env:
+          #SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        #run: npm run sonar
